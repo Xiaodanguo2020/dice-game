@@ -11,7 +11,7 @@ export const Roll = () => {
 
   return (
     <div>
-      <button onClick={randomNumber}>Roll</button>
+      <p>this player has dice score of {score}</p>
       <button onClick={randomNumber}>Roll</button>
     </div>
   );
